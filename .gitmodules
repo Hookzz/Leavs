@@ -1,0 +1,3 @@
+[submodule "Leavs/vendor/spdlog"]
+	path = Leavs/vendor/spdlog
+	url = https://github.com/gabime/spdlog

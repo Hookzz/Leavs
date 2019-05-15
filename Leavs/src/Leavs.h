@@ -3,6 +3,7 @@
 
 // FOR LEAVS APPLICATION
 #include "Leavs/Application.h"
+#include "Leavs/Log.h"
 
 // -----------ENTRY POINT--------------
 

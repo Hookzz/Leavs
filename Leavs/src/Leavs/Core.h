@@ -9,3 +9,5 @@
 #else
 	#error Leavs only support Windows!
 #endif // LV_PLATFORM_WINDOWS
+
+#define BIT(x) (1 << x)

@@ -1,42 +1,48 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Fichiers sources">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="Leavs">
+      <UniqueIdentifier>{0055970D-6C69-BFBE-35EB-621EA1BEBBEF}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Fichiers d%27en-tête">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="Fichiers de ressources">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="Leavs\Events">
+      <UniqueIdentifier>{E460DBA4-D0C3-6A49-7949-A3FF658B36CC}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\Leavs\Core.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
+    <ClInclude Include="src\Leavs.h" />
     <ClInclude Include="src\Leavs\Application.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+      <Filter>Leavs</Filter>
     </ClInclude>
-    <ClInclude Include="src\Leavs.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+    <ClInclude Include="src\Leavs\Core.h">
+      <Filter>Leavs</Filter>
     </ClInclude>
     <ClInclude Include="src\Leavs\EntryPoint.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+      <Filter>Leavs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Leavs\Events\ApplicationEvent.h">
+      <Filter>Leavs\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Leavs\Events\Event.h">
+      <Filter>Leavs\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Leavs\Events\KeyEvent.h">
+      <Filter>Leavs\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Leavs\Events\MouseEvent.h">
+      <Filter>Leavs\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\Leavs\Log.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+      <Filter>Leavs</Filter>
     </ClInclude>
+    <ClInclude Include="src\Lvpch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Leavs\Application.cpp">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Leavs</Filter>
     </ClCompile>
     <ClCompile Include="src\Leavs\Log.cpp">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Leavs</Filter>
     </ClCompile>
+    <ClCompile Include="src\Lvpch.cpp" />
   </ItemGroup>
 </Project>

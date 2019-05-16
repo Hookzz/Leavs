@@ -8,7 +8,7 @@ int main(int argc, char** argv)
 {
 	Leavs::Log::Init();
 	LEAVS_CORE_WARN("Initialized Log !");
-	int a = 5;
+	int a = 9;
 	LEAVS_INFO("Hi var = {0}", a);
 	auto app = Leavs::CreateApplication();
 	app->Run();
